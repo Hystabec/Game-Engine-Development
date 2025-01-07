@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<categories>
+	<error>
+		<write_to_file>1</write_to_file>
+		<write_to_console>1</write_to_console>
+	</error>
+	<warning>
+		<write_to_file>1</write_to_file>
+		<write_to_console>0</write_to_console>
+  </warning>
+  <info>
+    <write_to_file>0</write_to_file>
+    <write_to_console>1</write_to_console>
+	</info>
+</categories>

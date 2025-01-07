@@ -1,0 +1,5 @@
+W,A,S,D to move in game
+
+while in editor:
+- hold left ctrl to see mouse position
+- double click on gameObject to select them

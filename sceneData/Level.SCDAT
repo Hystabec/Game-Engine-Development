@@ -1,0 +1,152 @@
+#Level=45|
+@map=1=0=0|
+@NewGameObject=2=0=0|
+@NewGameObject1=3=0=128|
+@NewGameObject2=4=0=256|
+@NewGameObject3=5=0=384|
+@NewGameObject4=6=0=512|
+@NewGameObject5=7=0=640|
+@NewGameObject6=8=0=768|
+@NewGameObject7=9=128=0|
+@NewGameObject8=10=256=0|
+@NewGameObject9=11=384=0|
+@NewGameObject10=12=512=0|
+@NewGameObject11=13=640=0|
+@NewGameObject12=14=896=0|
+@NewGameObject13=15=768=0|
+@NewGameObject14=16=1024=0|
+@NewGameObject15=17=1152=0|
+@NewGameObject16=18=1280=0|
+@NewGameObject17=19=1350=0|
+@NewGameObject18=20=1350=128|
+@NewGameObject19=21=1350=255|
+@NewGameObject22=24=1357=513|
+@NewGameObject23=25=1358=638|
+@NewGameObject24=26=1360=765|
+@NewGameObject27=29=125=800|
+@NewGameObject28=30=251=800|
+@NewGameObject29=31=377=800|
+@NewGameObject30=32=502=800|
+@NewGameObject31=33=629=800|
+@NewGameObject32=34=754=800|
+@NewGameObject33=35=876=800|
+@NewGameObject34=36=1002=800|
+@NewGameObject35=37=1126=800|
+@NewGameObject36=38=1254=800|
+@Lunk=39=138=678|
+@Key=41=726=383|
+@Portal=42=1372=386|
+@Door=43=1352=385|
+@NewGameObject=44=913=180|
+>2=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>2=Rectangle Collider=true=false=Default|
+>3=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>3=Rectangle Collider=true=false=Default|
+>4=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>4=Rectangle Collider=true=false=Default|
+>5=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>5=Rectangle Collider=true=false=Default|
+>6=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>6=Rectangle Collider=true=false=Default|
+>7=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>7=Rectangle Collider=true=false=Default|
+>8=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>8=Rectangle Collider=true=false=Default|
+>9=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>9=Rectangle Collider=true=false=Default|
+>10=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>10=Rectangle Collider=true=false=Default|
+>11=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>11=Rectangle Collider=true=false=Default|
+>12=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>12=Rectangle Collider=true=false=Default|
+>13=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>13=Rectangle Collider=true=false=Default|
+>14=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>14=Rectangle Collider=true=false=Default|
+>15=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>15=Rectangle Collider=true=false=Default|
+>16=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>16=Rectangle Collider=true=false=Default|
+>17=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>17=Rectangle Collider=true=false=Default|
+>18=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>18=Rectangle Collider=true=false=Default|
+>19=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>19=Rectangle Collider=true=false=Default|
+>20=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>20=Rectangle Collider=true=false=Default|
+>21=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>21=Rectangle Collider=true=false=Default|
+>24=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>24=Rectangle Collider=true=false=Default|
+>25=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>25=Rectangle Collider=true=false=Default|
+>26=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>26=Rectangle Collider=true=false=Default|
+>29=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>29=Rectangle Collider=true=false=Default|
+>30=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>30=Rectangle Collider=true=false=Default|
+>31=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>31=Rectangle Collider=true=false=Default|
+>32=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>32=Rectangle Collider=true=false=Default|
+>33=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>33=Rectangle Collider=true=false=Default|
+>34=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>34=Rectangle Collider=true=false=Default|
+>35=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>35=Rectangle Collider=true=false=Default|
+>36=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>36=Rectangle Collider=true=false=Default|
+>37=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>37=Rectangle Collider=true=false=Default|
+>38=Sprite Renderer=true=../Assets\basicBlock.bmp|
+>38=Rectangle Collider=true=false=Default|
+>39=Sprite Renderer=true=../Assets\Lunk.bmp|
+>39=Basic Movement Module=true=5|
+>39=Rectangle Collider=true=false=Player|
+>39=TestGameComp=true|
+>41=Sprite Renderer=true=../Assets\Key.bmp|
+>41=Rectangle Collider=true=true=Key|
+>42=Sprite Renderer=true=../Assets\portal.bmp|
+>42=Rectangle Collider=true=true=Portal|
+>43=Sprite Renderer=true=../Assets\Door.bmp|
+>43=Rectangle Collider=true=false=Default|
+>44=Sprite Renderer=true=../Assets\monstertrans.bmp|
+>44=BasicFollowAI=true=930=132=930=680=5|
+>44=Rectangle Collider=true=true=Enemy|
+~2=1|
+~3=1|
+~4=1|
+~5=1|
+~6=1|
+~7=1|
+~8=1|
+~9=1|
+~10=1|
+~11=1|
+~12=1|
+~13=1|
+~14=1|
+~15=1|
+~16=1|
+~17=1|
+~18=1|
+~19=1|
+~20=1|
+~21=1|
+~24=1|
+~25=1|
+~26=1|
+~29=1|
+~30=1|
+~31=1|
+~32=1|
+~33=1|
+~34=1|
+~35=1|
+~36=1|
+~37=1|
+~38=1|

@@ -1,0 +1,18 @@
+How to add component;
+
+create .h / .cpp
+
+add to master components
+
+optional add details
+
+add in sceneHier
+
+add save and load
+
+add a button to add in the details pannel
+
+To Do:
+add a basic enemy can just move side to side/follow the player (slower than the player)
+
+documentation

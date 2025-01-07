@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{C095FEE8-6000-4340-A27B-8799CA7D4102}</ProjectGuid>
+    <RootNamespace>GameEngineDevelopment</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\Libraries\SDL2-2.28.3\include;..\Libraries\imgui-master;..\Libraries\imgui_sdl-master;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Libraries\SDL2-2.28.3\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Libraries\SDL2-2.28.3\include;..\Libraries\imgui-master;..\Libraries\imgui_sdl-master;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Libraries\SDL2-2.28.3\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Libraries\imgui-master\backends\imgui_impl_sdl.cpp" />
+    <ClCompile Include="..\Libraries\imgui-master\imgui.cpp" />
+    <ClCompile Include="..\Libraries\imgui-master\imgui_demo.cpp" />
+    <ClCompile Include="..\Libraries\imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="..\Libraries\imgui-master\imgui_tables.cpp" />
+    <ClCompile Include="..\Libraries\imgui-master\imgui_widgets.cpp" />
+    <ClCompile Include="..\Libraries\imgui_sdl-master\imgui_sdl.cpp" />
+    <ClCompile Include="AnonComponentGUI.cpp" />
+    <ClCompile Include="AssetEditor.cpp" />
+    <ClCompile Include="BasicFollowAI.cpp" />
+    <ClCompile Include="BasicFollowAiGUI.cpp" />
+    <ClCompile Include="BasicMovementModule.cpp" />
+    <ClCompile Include="BasicMovementModuleGUI.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="DebugMenu.cpp" />
+    <ClCompile Include="EditorDetailsPannel.cpp" />
+    <ClCompile Include="EditorFlameGraph.cpp" />
+    <ClCompile Include="EditorHierarchy.cpp" />
+    <ClCompile Include="EditorUI.cpp" />
+    <ClCompile Include="EventListener.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="EventMarker.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="RectangleCollider.cpp" />
+    <ClCompile Include="RectangleColliderGUI.cpp" />
+    <ClCompile Include="sceneHierarchy.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp" />
+    <ClCompile Include="SpriteRendererGUI.cpp" />
+    <ClCompile Include="TestGameComponent.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Libraries\imgui-master\backends\imgui_impl_sdl.h" />
+    <ClInclude Include="..\Libraries\imgui_sdl-master\imgui_sdl.h" />
+    <ClInclude Include="AnonComponentGUI.h" />
+    <ClInclude Include="AssetEditor.h" />
+    <ClInclude Include="BasicFollowAI.h" />
+    <ClInclude Include="BasicMovementModule.h" />
+    <ClInclude Include="BasicMovementModuleGUI.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="colliderBounds.h" />
+    <ClInclude Include="ColliderReturnStruct.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="Component.hpp" />
+    <ClInclude Include="DebugMenu.h" />
+    <ClInclude Include="EditorDetailsPannel.h" />
+    <ClInclude Include="EditorFlameGraph.h" />
+    <ClInclude Include="EditorHierarchy.h" />
+    <ClInclude Include="EditorUI.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventHandler.hpp" />
+    <ClInclude Include="EventListener.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="EventMarker.h" />
+    <ClInclude Include="EventTypes.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameModeI.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="BasicFollowAiGUI.h" />
+    <ClInclude Include="INode.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="I_ComponentGUI.h" />
+    <ClInclude Include="I_EditorPannel.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="MasterComponent.h" />
+    <ClInclude Include="MemoryTracker.h" />
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="ProfilerProbe.h" />
+    <ClInclude Include="RectangleCollider.h" />
+    <ClInclude Include="RectangleColliderGUI.h" />
+    <ClInclude Include="sceneHierarchy.h" />
+    <ClInclude Include="SpriteRenderer.h" />
+    <ClInclude Include="SpriteRendererGUI.h" />
+    <ClInclude Include="TestGameComponent.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="console.log" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\pugixml.1.14.0\build\native\pugixml.targets" Condition="Exists('..\packages\pugixml.1.14.0\build\native\pugixml.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\pugixml.1.14.0\build\native\pugixml.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pugixml.1.14.0\build\native\pugixml.targets'))" />
+  </Target>
+</Project>

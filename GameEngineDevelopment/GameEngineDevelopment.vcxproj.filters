@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imGUI">
+      <UniqueIdentifier>{71ba8f97-e9d9-4480-96a5-0770a28c063e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event System Headers">
+      <UniqueIdentifier>{5b59ac33-ca31-4581-b3df-1d53c2dfee91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event System cpp">
+      <UniqueIdentifier>{3f1cd416-69f4-4bd8-8d40-733b95abfb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject&amp;Components">
+      <UniqueIdentifier>{760bc674-4591-4a05-9f3d-59b9d06363c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject&amp;Componets">
+      <UniqueIdentifier>{4fab9604-58df-46a3-a450-4a038cf75b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EditorUI">
+      <UniqueIdentifier>{60ae84bb-1f1b-4863-88b5-aca642e9bc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorUI">
+      <UniqueIdentifier>{6329c2a0-4523-4650-967e-8e9369cce32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EditorUI\GUIComponents/wrapper">
+      <UniqueIdentifier>{9225bc16-7605-435e-aadd-b7514e5cd209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditorUI\GUIComponents/wrapper">
+      <UniqueIdentifier>{1be1b5e8-0823-4645-9d74-f593b46c6be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Profiler">
+      <UniqueIdentifier>{de83030b-baee-46d8-bffe-84df96ec3bae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneHierarchy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui_sdl-master\imgui_sdl.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_demo.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_draw.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_tables.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\imgui_widgets.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\imgui-master\backends\imgui_impl_sdl.cpp">
+      <Filter>imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListener.cpp">
+      <Filter>Source Files\Event System cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Source Files\Event System cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMarker.cpp">
+      <Filter>Source Files\Event System cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMovementModule.cpp">
+      <Filter>Source Files\GameObject&amp;Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject&amp;Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Source Files\GameObject&amp;Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMenu.cpp">
+      <Filter>Source Files\EditorUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorUI.cpp">
+      <Filter>Source Files\EditorUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetEditor.cpp">
+      <Filter>Source Files\EditorUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRendererGUI.cpp">
+      <Filter>Source Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMovementModuleGUI.cpp">
+      <Filter>Source Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorHierarchy.cpp">
+      <Filter>Source Files\EditorUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorDetailsPannel.cpp">
+      <Filter>Source Files\EditorUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorFlameGraph.cpp">
+      <Filter>Source Files\EditorUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleCollider.cpp">
+      <Filter>Source Files\GameObject&amp;Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleColliderGUI.cpp">
+      <Filter>Source Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="AnonComponentGUI.cpp">
+      <Filter>Source Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGameComponent.cpp">
+      <Filter>Source Files\GameObject&amp;Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicFollowAI.cpp">
+      <Filter>Source Files\GameObject&amp;Componets</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicFollowAiGUI.cpp">
+      <Filter>Source Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneHierarchy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui_sdl-master\imgui_sdl.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\imgui-master\backends\imgui_impl_sdl.h">
+      <Filter>imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Event System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.hpp">
+      <Filter>Header Files\Event System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Header Files\Event System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Header Files\Event System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTypes.h">
+      <Filter>Header Files\Event System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMarker.h">
+      <Filter>Header Files\Event System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMovementModule.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterComponent.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorUI.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMenu.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetEditor.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRendererGUI.h">
+      <Filter>Header Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="I_ComponentGUI.h">
+      <Filter>Header Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMovementModuleGUI.h">
+      <Filter>Header Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorHierarchy.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDetailsPannel.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfilerProbe.h">
+      <Filter>Header Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorFlameGraph.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="I_EditorPannel.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModeI.h">
+      <Filter>Header Files\EditorUI</Filter>
+    </ClInclude>
+    <ClInclude Include="colliderBounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleCollider.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderReturnStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleColliderGUI.h">
+      <Filter>Header Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="AnonComponentGUI.h">
+      <Filter>Header Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGameComponent.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicFollowAI.h">
+      <Filter>Header Files\GameObject&amp;Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicFollowAiGUI.h">
+      <Filter>Header Files\EditorUI\GUIComponents/wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="console.log">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

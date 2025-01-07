@@ -1,0 +1,4 @@
+#testGameComp=2|
+@NewGameObject=1=527=220|
+>1=Sprite Renderer=true=../Assets\Key.bmp|
+>1=TestGameComp=true|
