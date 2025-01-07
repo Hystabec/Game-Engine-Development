@@ -25,6 +25,7 @@ public:
 	void Update(void);
 	bool KeyIsPressed(KEYS_PRESSED_LIST key);
 	void setUp();
+	bool windowCloseEventCalled();
 
 	Input();
 	~Input();
@@ -33,4 +34,5 @@ private:
 	SDL_Event m_event;
 	bool m_keysPressed[SIZE_OF_KEYS_PRESSED_ENUM];
 	bool m_keysPressedPrevious[SIZE_OF_KEYS_PRESSED_ENUM];
+	bool windowCloseCalled = false;
 };	

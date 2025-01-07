@@ -322,7 +322,7 @@ void Game::SetDisplayColour(int red, int green, int blue, int alpha)
 
 void Game::Update(void)
 {
-	if (!input->KeyIsPressed(KEY_ESCAPE))	//could ask the input manager for this instead of checking every time
+	if (!input->windowCloseEventCalled())	//could ask the input manager for this instead of checking every time
 	{
 		if (!activeScene == 0)
 		{

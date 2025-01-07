@@ -464,6 +464,12 @@ void Input::Update(void)
 				break;
 			}
 		}
+		else if (m_event.type == SDL_WINDOWEVENT)
+		{
+			if (m_event.window.event == SDL_WINDOWEVENT_CLOSE)
+				windowCloseCalled = true;
+		}
+		
 	}
 
 	HandleInputWithEvents();
@@ -489,6 +495,11 @@ void Input::setUp()
 		m_keysPressedPrevious[index] = 0;
 		index++;
 	}
+}
+
+bool Input::windowCloseEventCalled()
+{
+	return windowCloseCalled;
 }
 
 Input::Input()
