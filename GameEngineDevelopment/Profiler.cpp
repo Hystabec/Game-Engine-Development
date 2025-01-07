@@ -130,6 +130,9 @@ Profiler::Profiler()
 	readMap = &MapBufferOne;
 	writeMap = &MapBufferTwo;
 
+	if (!std::filesystem::exists(folderLocation))
+		std::filesystem::create_directory(folderLocation);
+
 	//on startup will delete all existing files in the profiles folder so that new ones can be written
 	for (const auto& entry : std::filesystem::directory_iterator(folderLocation))
 	{
