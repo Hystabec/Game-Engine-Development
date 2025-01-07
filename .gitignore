@@ -19,6 +19,8 @@ imgui.ini
 **.vcxproj.user
 **.csproj
 
+**.engineProfile
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

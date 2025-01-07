@@ -1,4 +1,4 @@
-#include "DebugFPS.h"
+/*#include "DebugFPS.h"
 #include <ctime>
 #include <chrono>
 #include "Logger.h"
@@ -33,4 +33,4 @@ void DebugFPS::update()
 
 		Debug_Logger->TypeDebugPrintF(Logger_Info, "CPU time was: %0.7f\n", _averageFramesTime);
 	}
-}
+}*/

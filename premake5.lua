@@ -20,7 +20,16 @@ project "GameEngineDevelopment"
 	files
 	{
 		"%{prj.name}/**.h",
-		"%{prj.name}/**.cpp"
+		"%{prj.name}/**.cpp",
+		"Libraries/imgui-master/imgui.cpp",
+		"Libraries/imgui-master/imgui_demo.cpp",
+		"Libraries/imgui-master/imgui_draw.cpp",
+		"Libraries/imgui_sdl-master/imgui_sdl.h",
+		"Libraries/imgui_sdl-master/imgui_sdl.cpp",
+		"Libraries/imgui-master/backends/imgui_impl_sdl.h",
+		"Libraries/imgui-master/backends/imgui_impl_sdl.cpp",
+		"Libraries/imgui-master/imgui_tables.cpp",
+		"Libraries/imgui-master/imgui_widgets.cpp"
 	}
 
 	includedirs
@@ -47,6 +56,8 @@ project "GameEngineDevelopment"
 		("{copy} ../Libraries/SDL2-2.28.3/lib/SDL2.dll ../bin/" .. outputdir .. "/GameEngineDevelopment"),
 		("{copy} ../Libraries/SDL2-2.28.3/lib/SDL2_ttf.dll ../bin/" .. outputdir .. "/GameEngineDevelopment")
 	}
+
+	nuget { "pugixml:1.14.0" }
 
 	filter "system:windows"
 		systemversion "latest"

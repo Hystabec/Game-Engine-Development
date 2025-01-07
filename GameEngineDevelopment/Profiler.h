@@ -26,7 +26,7 @@ private:
 	unsigned int currentBufferCount = 0;
 	
 	std::string folderLocation = "../Profiles/";
-	std::string fileExtention = ".txt";
+	std::string fileExtention = ".engineProfile";
 	std::map<std::string, ProfilerProbe*> profileProbeMap;
 	unsigned int currentFunctionID = 0;
 
