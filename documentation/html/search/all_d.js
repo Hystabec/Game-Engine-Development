@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['sample_0',['Sample',['../struct_sample.html',1,'']]],
+  ['saveactivescene_1',['saveActiveScene',['../class_game.html#a41db05d68e8ddc03f7f83b0d1e880822',1,'Game']]],
+  ['savecurrentscenebackend_2',['saveCurrentSceneBackEnd',['../classscene_hierarchy.html#a65932a20c1bedf38bfea428d09383fd3',1,'sceneHierarchy']]],
+  ['savescene_3',['saveScene',['../classscene_hierarchy.html#ae83177d25f0af1dceec592af688069d6',1,'sceneHierarchy']]],
+  ['scenehierarchy_4',['sceneHierarchy',['../classscene_hierarchy.html',1,'']]],
+  ['setactive_5',['setActive',['../class_profiler.html#a3055f2e61d40810c62a1bfd07f88ebc9',1,'Profiler']]],
+  ['setactivestatus_6',['setActiveStatus',['../class_component.html#a60bf55bd6d28b3867e68f2a0551955d7',1,'Component']]],
+  ['setdisplaycolour_7',['SetDisplayColour',['../class_game.html#aba732993bae800db55f7f06eb45bbf5d',1,'Game']]],
+  ['setinitializedstatus_8',['setInitializedStatus',['../classscene_hierarchy.html#ab09de6fc2b2720abbc3520af3bc8d45c',1,'sceneHierarchy']]],
+  ['setm_5fx_9',['setm_x',['../class_bitmap.html#abcfbb19d1d22bc69813fa0e1886c5138',1,'Bitmap']]],
+  ['setm_5fy_10',['setm_y',['../class_bitmap.html#af99cfcd021d9ea6e21c1ad416b605f28',1,'Bitmap']]],
+  ['setmophingpossitiontransform_11',['setMophingPossitionTransform',['../class_game_object.html#addbc94215c123a1885047c7c7f18434a',1,'GameObject']]],
+  ['setmophingscaletransform_12',['setMophingScaleTransform',['../class_game_object.html#a159aaae784d8136ec6cd88506bf93a87',1,'GameObject']]],
+  ['setnameofgameobject_13',['setNameOfGameObject',['../class_game_object.html#aab25cfd8bae9fd8d05ccf87df772d161',1,'GameObject']]],
+  ['setparent_14',['setParent',['../class_game_object.html#a8fe1e6c5c71cfb9ff99af043295fe54d',1,'GameObject']]],
+  ['setpositiontransform_15',['setPositionTransform',['../class_game_object.html#a6f2918b8998d2e0e4903e72433c689a0',1,'GameObject']]],
+  ['setrectboundswh_16',['setRectBoundsWH',['../class_game_object.html#ae8170a5f3a497c95bda0b1dc750723be',1,'GameObject']]],
+  ['setscaletransform_17',['setScaleTransform',['../class_game_object.html#a11b884bfe6436802e4e37f5f9e4bb241',1,'GameObject']]],
+  ['spriterenderer_18',['SpriteRenderer',['../class_sprite_renderer.html',1,'']]],
+  ['spriterenderergui_19',['SpriteRendererGUI',['../class_sprite_renderer_g_u_i.html',1,'']]],
+  ['startprofile_20',['startProfile',['../class_profiler.html#a9ac3975d386056d2094432f326eb99e2',1,'Profiler']]],
+  ['switchmode_21',['switchMode',['../class_game.html#a1ecf8f97eb3fc21d0a2032be532ae177',1,'Game']]]
+];

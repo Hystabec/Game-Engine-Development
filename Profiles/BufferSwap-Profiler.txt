@@ -1,5 +1,0 @@
-Start frame:100, End frame:100, Time taken:9 microseconds
-Start frame:200, End frame:200, Time taken:9 microseconds
-Start frame:300, End frame:300, Time taken:8 microseconds
-Start frame:400, End frame:400, Time taken:8 microseconds
-Start frame:500, End frame:500, Time taken:8 microseconds
